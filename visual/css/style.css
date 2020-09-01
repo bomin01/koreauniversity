@@ -1,0 +1,222 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+input {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+.header_title {
+  font-size: 120%;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-top: -10px;
+}
+
+.panel {
+  position: fixed;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.right_panel {
+  width: 250px;
+  right: 20px;
+}
+
+#algorithm_panel {
+  right: 20px;
+  top: 20px;
+}
+
+#instructions_panel {
+  top: 20px;
+  left: 20px;
+  width: 550px;
+}
+
+#hide_instructions {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  font-size: 90%;
+  cursor: pointer;
+}
+
+#hide_instruction:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.option_header {
+  font-size: 80%;
+  margin-left: 20px;
+}
+
+.option_label {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-size: 90%;
+  cursor: pointer;
+  padding: 2px 8px;
+  margin: 0 2%;
+  width: 28%;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.finder_section {
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.sub_options {
+  padding: 2px;
+  font-size: 14px;
+  margin: 2px 30px 0;
+}
+
+#stats {
+  position: fixed;
+  bottom: 40px;
+  left: 35px;
+  color: #0a0;
+  font-size: 85%;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+a {
+  color: #33f;
+}
+
+footer {
+  color: #333;
+  font-size: 70%;
+  text-align: center;
+  position: fixed;
+  width: 200px;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -100px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.white {
+  color: #fff;
+}
+
+.green {
+  color: #0d0;
+}
+
+.red {
+  color: #ff9166;
+}
+
+.spinner {
+  width: 2em;
+}
+
+rect {
+  opacity: 0.3;
+}
+
+#algorithm_panel {
+  display: none;
+}
+
+.button {
+  display: flex;
+  position: absolute;
+  margin: 5px;
+}
+
+#bt1,
+#bt2,
+#bt3,
+#bt4,
+#bt5,
+#bt6 {
+  margin: 1px;
+  text-align: center;
+  width: 25px;
+  padding: 4px 6px;
+  border-radius: 8px;
+  border: solid white 2px;
+}
+
+#bt1:hover,
+#bt2:hover,
+#bt3:hover,
+#bt4:hover,
+#bt5:hover,
+#bt6:hover {
+  border: solid yellow 2px;
+}
+
+#bt1 {
+  background-color: #c89ec4;
+}
+
+#bt2 {
+  background-color: #ff7473;
+}
+
+#bt3 {
+  background-color: #ffc952;
+}
+
+#bt4 {
+  background-color: #a5d296;
+}
+
+#bt5 {
+  background-color: #47b8e0;
+}
+
+#bt6 {
+  background-color: #ddd;
+}
+
+#button1 {
+  background-color: #cff09e;
+}
+
+#button2 {
+  background-color: #79bd9a;
+}
+
+#button3 {
+  background-color: #3b8686;
+}
